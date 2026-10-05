@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title >دکتر رزرو  </title>
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/vazirmatn@30.1.0/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"><link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body dir="rtl">
+
+  <nav class="navbar   navbar-expand-lg navbar-light bg-white border-bottom py-3">
+    <div class="container container-custom">
+      <a class="navbar-brand py-0 me-0" href="#">
+        <img src="./assest/logo rezerve.png" alt="دکتر رزرو" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4 mt-3 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  fw-medium" href="#">لیست پزشکان</a>
+          </li>
+          <li class="nav-item">
+            <a class="navplus fw-medium" href="#">سوالات متداول</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-pup fw-medium" href="./pup.html">درباره ما</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#">تماس با ما</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-block">
+        <a href="#" class="btn btn-auth text-primary fw-medium px-4">ورود / ثبت نام</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section  py-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-5 order-2 order-lg-1 text-center text-lg-end">
+
+          <h2 class="fw-bold   display-5 mb-4">
+            سلامت شما، رسالت ما
+          </h2>
+
+          <p class="text-secondary fs-5 mb-4">
+            بهترین پزشکان در دسترس شما،
+            <br>
+            نوبت‌دهی آنلاین مطمئن فقط با چند کلیک.
+          </p>
+
+          <div class="d-flex gap-3 justify-content-center justify-content-lg-end">
+            <a href="#" class="btn btn-primary px-5 py-3 rounded-3">
+              رزرو نوبت
+            </a>
+
+            <a href="#" class="btn btn-outline-secondary px-5 py-3 rounded-3">
+              پشتیبانی
+            </a>
+          </div>
+
+        </div>
+
+        <!-- تصویر -->
+        <div class="col-lg-7 order-1 order-lg-2 text-center">
+
+          <img
+            src="./assest/hospital-profession-people-medicine-concept-international-group-happy-doctors-hospital_380164-134747 1.png"
+            class="img-fluid" alt="Doctors">
+
+        </div>
+
+      </div>
+
+      <!-- امکانات -->
+      <section class="features py-4">
+        <div class="container">
+          <div class="row g-3">
+
+            <div class="col-md-4">
+              <div class="feature-card">
+                <div class="feature-icon">
+
+                  <img src="./assest/ایکون/setting-04.png" alt="">
+                </div>
+
+                <div class="feature-content">
+                  <h5>مدیریت و تغییر نوبت ها به راحتی</h5>
+                  <p>توانایی لغو، تغییر و مدیریت نوبت ها به راحتی</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <img src="./assest/ایکون/comment-01.png" alt="">
+                </div>
+
+                <div class="feature-content">
+                  <h5>اطمینان از انتخاب مجرب‌ترین پزشکان</h5>
+                  <p>بهترین پزشکان را با توجه به نظرات کاربران انتخاب کنید</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <img src="./assest/ایکون/ساعت.png" alt="">
+                </div>
+
+                <div class="feature-content">
+                  <h5>دسترسی ۲۴ ساعته به پزشکان</h5>
+                  <p>در هر زمان می‌توانید نوبت خود را رزرو کنید</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    </div>
+  </section>
+
+
+  <section class="hero d-flex align-items-center justify-content-center" style="margin-left: 80px; margin-right: 80px;"  >
+    <div class="overlay"></div>
+
+    <div class="hero-content text-center position-relative">
+
+      <h1 class="fw-bold mb-3">
+        فقط یک جستجو با بهترین پزشکان فاصله دارید
+      </h1>
+
+      <p class="mb-4">
+        در کمتر از ۱ دقیقه نوبت خود را رزرو کنید
+      </p>
+
+      <div class="search-box mx-auto d-flex align-items-center">
+        <i class="fa-solid fa-magnifying-glass ms-3"></i>
+
+        <input type="text" class="form-control border-0 shadow-none"
+          placeholder="پزشک یا تخصص مورد نظر خود را جستجو کنید...">
+      </div>
+
+    </div>
+  </section>
+
+  <div class="container py-5 px-5 w-100 " dir="rtl">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h5 class="fw-bold m-0">لیست تخصص‌ها</h5>
+      <a href="#" class="text-decoration-none text-muted small">مشاهده همه <i class="fas fa-chevron-left ms-1"></i></a>
+    </div>
+
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-7 g-3">
+
+      <div class="col  " style="width: 14.2%;" >
+        <div class="card h-100 border border-light shadow-sm custom-card">
+          <div class="card-body p-3 text-center">
+            <div class="icon-wrapper mb-3">
+              <img src="./assest/قلب.png" alt="قلب و عروق">
+            </div>
+            <h6 class="card-title mb-1 text-dark">قلب و عروق</h6>
+            <p class="card-text text-muted small">۱۴۵+ پزشک</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="width: 14.2%;" >
+        <div class="card h-100 border border-light shadow-sm custom-card">
+          <div class="card-body p-3 text-center">
+            <div class="icon-wrapper mb-3">
+              <img src="./assest/ارتوپد.png" alt="ارتوپد">
+            </div>
+            <h6 class="card-title mb-1 text-dark">ارتوپد</h6>
+            <p class="card-text text-muted small">۱۴۵+ پزشک</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="width: 14.2%;" >
+        <div class="card h-100 border border-light shadow-sm custom-card">
+          <div class="card-body p-3 text-center">
+            <div class="icon-wrapper mb-3">
+              <img src="./assest/مغز.png" alt="مغز و اعصاب">
+            </div>
+            <h6 class="card-title mb-1 text-dark">مغز و اعصاب</h6>
+            <p class="card-text text-muted small">۱۴۵+ پزشک</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="width: 14.2%;" >
+        <div class="card h-100 border border-light shadow-sm custom-card">
+          <div class="card-body p-3 text-center">
+            <div class="icon-wrapper mb-3">
+              <img src="./assest/تنفس.png" alt="دستگاه تنفسی">
+            </div>
+            <h6 class="card-title mb-1 text-dark">دستگاه تنفسی</h6>
+            <p class="card-text text-muted small">۱۴۵+ پزشک</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="width: 14.2%;" >
+        <div class="card h-100 border border-light shadow-sm custom-card">
+          <div class="card-body p-3 text-center">
+            <div class="icon-wrapper mb-3">
+              <img src="./assest/چشم.png" alt="چشم پزشکی">
+            </div>
+            <h6 class="card-title mb-1 text-dark">چشم پزشکی</h6>
+            <p class="card-text text-muted small">۱۴۵+ پزشک</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="width: 14.2%;" >
+        <div class="card h-100 border border-light shadow-sm custom-card">
+          <div class="card-body p-3 text-center">
+            <div class="icon-wrapper mb-3">
+              <img src="./assest/اطفال.png" alt="اطفال">
+            </div>
+            <h6 class="card-title mb-1 text-dark">اطفال</h6>
+            <p class="card-text text-muted small">۱۴۵+ پزشک</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" style="width: 14.2%" >
+        <div class="card h-100 border border-light shadow-sm custom-card">
+          <div class="card-body p-3 text-center">
+            <div class="icon-wrapper mb-3">
+              <img src="./assest/گوش.png" alt="گوش، حلق، بینی">
+            </div>
+            <h6 class="card-title mb-1 text-dark small-text">گوش، حلق، بینی</h6>
+            <p class="card-text text-muted small">۱۴۵+ پزشک</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <section class="doctors-section py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h5 class="fw-bold m-0">محبوب‌ترین پزشکان <span class="fw-normal text-muted d-none d-md-inline">(بر اساس تعداد
+            نوبت‌های رزرو شده)</span></h5>
+        <a href="#" class="text-decoration-none text-muted small">مشاهده همه <i
+            class="fas fa-chevron-left ms-1"></i></a>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box">
+              <img src="./assest/دکتران پارت یک/زهرا وارسته.png" alt="دکتر زهرا وارسته" class="doctor-img">
+            </div>
+            <div class="card-body p-3">
+              <div class="doctor-rating mb-2">
+                <span class="text-warning fw-bold">★</span>
+                <span class="ms-1 fw-bold">3.5</span>
+                <small class="text-muted">(۱۰۵ نظر)</small>
+              </div>
+              <h6 class="fw-bold mb-1">دکتر زهرا وارسته</h6>
+              <div class="text-muted small mb-1">متخصص زنان و زایمان</div>
+              <div class="text-muted small">تهران</div>
+   <button class="btn btn-outline-primary w-100 mt-3 doctor-btn">
+    دریافت نوبت
+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box">
+              <img src="./assest/دکتران پارت یک/علی وارسته.png" alt="دکتر علی وارسته" class="doctor-img">
+            </div>
+            <div class="card-body p-3">
+              <div class="doctor-rating mb-2">
+                <span class="text-warning fw-bold">★</span>
+                <span class="ms-1 fw-bold">3.5</span>
+                <small class="text-muted">(۱۰۵ نظر)</small>
+              </div>
+              <h6 class="fw-bold mb-1">دکتر علی وارسته</h6>
+              <div class="text-muted small mb-1">متخصص قلب و عروق</div>
+              <div class="text-muted small">تهران</div>
+              <button class="btn btn-outline-primary w-100 mt-3 doctor-btn">دریافت نوبت</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box">
+              <img src="./assest/دکتران پارت یک/بهنوش حسینی.png" alt="دکتر بهنوش حسینی" class="doctor-img">
+            </div>
+            <div class="card-body p-3">
+              <div class="doctor-rating mb-2">
+                <span class="text-warning fw-bold">★</span>
+                <span class="ms-1 fw-bold">3.5</span>
+                <small class="text-muted">(۱۰۵ نظر)</small>
+              </div>
+              <h6 class="fw-bold mb-1">دکتر بهنوش حسینی</h6>
+              <div class="text-muted small mb-1">جراح گوش، حلق و بینی</div>
+              <div class="text-muted small">تهران</div>
+              <button class="btn btn-outline-primary w-100 mt-3 doctor-btn">دریافت نوبت</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box doctor-img-box-fit">
+              <img src="./assest/دکتران پارت یک/علی راد.png" alt="دکتر علی راد" class="doctor-img doctor-img-contain">
+            </div>
+            <div class="card-body p-3">
+              <div class="doctor-rating mb-2">
+                <span class="text-warning fw-bold">★</span>
+                <span class="ms-1 fw-bold">3.5</span>
+                <small class="text-muted">(۱۰۵ نظر)</small>
+              </div>
+              <h6 class="fw-bold mb-1">دکتر علی راد</h6>
+              <div class="text-muted small mb-1">متخصص قلب و ریه</div>
+              <div class="text-muted small">تهران</div>
+              <button class="btn btn-outline-primary w-100 mt-3 doctor-btn">دریافت نوبت</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="health-banner py-5">
+    <div class="container">
+      <div class="row g-0 banner-card overflow-hidden flex-row-reverse">
+
+        <div class="col-12 col-md-7 position-relative banner-content d-flex align-items-center">
+          <div class="position-relative z-1 w-100 p-4 p-md-5 text-center text-md-end">
+            <img src="./assest/بکگراند عکس.png" alt="">
+            <h3 class="fw-bold mb-3 banner-title">همین حالا رایگان تست سلامت بگیرید</h3>
+            <p class="text-muted mb-4 banner-text">در کمتر از دو دقیقه سلامت خود را ارزیابی کنید</p>
+            <a href="#" class="btn btn-primary banner-btn px-4 py-2">شروع تست سلامت</a>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-5">
+          <img src="./assest/عکس.png" alt="تست سلامت" class="banner-img w-100 h-100">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="doctors-section py-5">
+    <div class="container container-custom">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 class="fw-bold mb-0 text-dark">جدیدترین پزشک‌ها</h4>
+        <a href="#" class="text-decoration-none text-muted small">مشاهده همه <i
+            class="fas fa-chevron-left ms-1"></i></a>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box">
+              <img src="./assest/دکتران پارت دوم/لعیا زنگنه.png" alt="دکتر لعیا زنگنه" class="doctor-img">
+            </div>
+            <div class="card-body p-3">
+              <h6 class="fw-bold mb-1">دکتر لعیا زنگنه</h6>
+              <div class="text-muted small mb-2">متخصص قلب و عروق</div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="small text-muted"><i class="fas fa-map-marker-alt me-1"></i>تهران</div>
+                <div class="small text-warning"><i class="fas fa-star me-1"></i>3.5 <span class="text-muted">(۱۰۵
+                    نظر)</span></div>
+              </div>
+              <button class="btn btn-outline-primary w-100 doctor-btn">دریافت نوبت</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box">
+              <img src="./assest/دکتران پارت دوم/یاشار پناهی.png" alt="دکتر یاشار پناهی" class="doctor-img">
+            </div>
+            <div class="card-body p-3">
+              <h6 class="fw-bold mb-1">دکتر یاشار پناهی</h6>
+              <div class="text-muted small mb-2">متخصص روانشناس بالینی</div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="small text-muted"><i class="fas fa-map-marker-alt me-1"></i>تهران</div>
+                <div class="small text-warning"><i class="fas fa-star me-1"></i>3.0 <span class="text-muted">(۱۰۰
+                    نظر)</span></div>
+              </div>
+              <button class="btn btn-outline-primary w-100 doctor-btn">دریافت نوبت</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box">
+              <img src="./assest/دکتران پارت دوم/زهرا سعادتی.png" alt="دکتر زهرا سعادتی" class="doctor-img">
+            </div>
+            <div class="card-body p-3">
+              <h6 class="fw-bold mb-1">دکتر زهرا سعادتی</h6>
+              <div class="text-muted small mb-2">متخصص گوش و حلق و بینی</div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="small text-muted"><i class="fas fa-map-marker-alt me-1"></i>تهران</div>
+                <div class="small text-warning"><i class="fas fa-star me-1"></i>3.5 <span class="text-muted">(۲۵۰
+                    نظر)</span></div>
+              </div>
+              <button class="btn btn-outline-primary w-100 doctor-btn">دریافت نوبت</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="doctor-img-box">
+              <img src="./assest/دکتران پارت دوم/ماهان گروسی.png" alt="دکتر ماهان گروسی" class="doctor-img">
+            </div>
+            <div class="card-body p-3">
+              <h6 class="fw-bold mb-1">دکتر ماهان گروسی</h6>
+              <div class="text-muted small mb-2">فوق متخصص دندانپزشکی</div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="small text-muted"><i class="fas fa-map-marker-alt me-1"></i>تهران</div>
+                <div class="small text-warning"><i class="fas fa-star me-1"></i>3.5 <span class="text-muted">(۲۵۰
+                    نظر)</span></div>
+              </div>
+              <button class="btn btn-outline-primary w-100 doctor-btn">دریافت نوبت</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews-section py-5">
+    <div class="container container-custom">
+      <div class="reviews-header-flex mb-4">
+        <h4 class="reviews-title mb-0">نظرات کاربران</h4>
+        <a href="#" class="reviews-see-all">مشاهده همه <i class="fas fa-chevron-left"></i></a>
+
+      </div>
+
+      <div class="reviews-slider position-relative">
+        <div class="row g-3 flex-nowrap overflow-auto reviews-row pb-2">
+          <div class="col-12 col-md-4 flex-shrink-0">
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-user">
+                  <img src="./assest/رها.png" alt="رها مرادی" class="review-avatar">
+                  <div class="review-user-name">رها مرادی</div>
+                </div>
+                <div class="review-date">(۱۴۰۳/۱۰/۲۰)</div>
+              </div>
+
+              <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p class="review-text">سلام دکتر بسیار خون گرم و مهربون بود.</p>
+
+              <div class="review-footer">
+                <span class="review-doctor-name">درباره دکتر زهرا وارسته</span>
+                <a href="#" class="review-link">مشاهده دکتر</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 flex-shrink-0">
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-user">
+                  <img src="./assest/میترا.png" alt="میترا" class="review-avatar">
+                  <div class="review-user-name">میترا</div>
+                </div>
+                <div class="review-date">(۱۴۰۳/۱۰/۲۰)</div>
+              </div>
+
+              <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p class="review-text">دکتر عالی هستند و تشخیصشون درست در اولین معاینه بیماری را تشخیص دادند و با تجویز یک
+                نسخه درمان کردند.</p>
+
+              <div class="review-footer">
+                <span class="review-doctor-name">درباره دکتر محمود محمودی</span>
+                <a href="#" class="review-link">مشاهده دکتر</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 flex-shrink-0">
+            <div class="review-card">
+              <div class="review-card-top">
+                <div class="review-user">
+                  <img src="./assest/حسن احمدی.png" alt="حسن احمدی" class="review-avatar">
+                  <div class="review-user-name">حسن احمدی</div>
+                </div>
+                <div class="review-date">(۱۴۰۳/۱۰/۲۰)</div>
+              </div>
+
+              <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star text-muted"></i>
+              </div>
+
+              <p class="review-text">دکتر عالی هستند و تشخیصشون درست بود و روند درمان خیلی خوب پیش رفت.</p>
+
+              <div class="review-footer">
+                <span class="review-doctor-name">درباره دکتر علی وارسته</span>
+                <a href="#" class="review-link">مشاهده دکتر</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq-section py-5">
+    <div class="container container-custom">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 class="fw-bold mb-0 text-dark">سوالات متداول</h4>
+        <a href="#" class="text-decoration-none text-muted small">مشاهده همه <i
+            class="fas fa-chevron-left ms-1"></i></a>
+      </div>
+
+      <div class="faq-list">
+
+        <div class="faq-item py-3 border-bottom">
+          <h6 class="fw-bold mb-2">چگونه می‌توانم نوبت رزرو کنم؟</h6>
+          <p class="text-muted small mb-0 lh-lg">پس از پیدا کردن پزشک مورد نظر، بر روی دکمه «رزرو نوبت» کلیک کنید، سپس
+            تاریخ و ساعت مورد نظر خود را از تقویم پزشک انتخاب کنید و اطلاعات خود را وارد کنید. پس از تایید، نوبت شما ثبت
+            خواهد شد و پیامک تایید برای شما ارسال می‌شود.</p>
+        </div>
+
+
+        <div class="faq-item py-3 border-bottom">
+          <h6 class="fw-bold mb-0">چگونه می‌توانم پزشک مورد نظرم را پیدا کنم؟</h6>
+        </div>
+        <div class="faq-item py-3 border-bottom">
+          <h6 class="fw-bold mb-0">چگونه می‌توانم نوبت خود را لغو یا جابجا کنم؟</h6>
+        </div>
+        <div class="faq-item py-3 border-bottom">
+          <h6 class="fw-bold mb-0">آیا می‌توانم برای شخص دیگری نوبت رزرو کنم؟</h6>
+        </div>
+        <div class="faq-item py-3 border-bottom">
+          <h6 class="fw-bold mb-0">چگونه می‌توانم هزینه ویزیت را پرداخت کنم؟</h6>
+        </div>
+        <div class="faq-item py-3 border-bottom">
+          <h6 class="fw-bold mb-0">چگونه می‌توانم نزدیک‌ترین پزشک به محل سکونت خود را پیدا کنم؟</h6>
+        </div>
+        <div class="faq-item py-3 border-bottom">
+          <h6 class="fw-bold mb-0">آیا می‌توانم نسخه‌های الکترونیکی خود را از طریق وبسایت دریافت کنم؟</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="latest-articles py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <a href="#" class="text-decoration-none text-muted small">
+          مشاهده همه
+          <i class="fas fa-chevron-left ms-1"></i>
+        </a>
+        <h4 class="fw-bold mb-0">آخرین مقالات</h4>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="article-card h-100 bg-white border rounded-3 overflow-hidden">
+            <img src="./assest/دیابت.png" class="w-100 article-img" alt="article">
+            <div class="p-3">
+              <h6 class="fw-bold mb-2">چگونه بهترین دکتر را برای نیازهای خود پیدا کنیم؟</h6>
+              <p class="text-muted small mb-3">رزرو بهترین دکتر برای نیازمندی‌های شما است که باید بدانید...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-primary text-decoration-none small">ادامه مطلب</a>
+                <span class="text-muted small">۱۴۰۳/۰۸/۰۵</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="article-card h-100 bg-white border rounded-3 overflow-hidden">
+            <img src="./assest/قندخون.png" class="w-100 article-img" alt="article">
+            <div class="p-3">
+              <h6 class="fw-bold mb-2">۵ گام ساده برای پیشگیری از دیابت</h6>
+              <p class="text-muted small mb-3">۵ گام ساده برای پیشگیری نوع ۲ ...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-primary text-decoration-none small">ادامه مطلب</a>
+                <span class="text-muted small">۱۴۰۳/۰۸/۱۰</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="article-card h-100 bg-white border rounded-3 overflow-hidden">
+            <img src="./assest/معاینه.png" class="w-100 article-img" alt="article">
+            <div class="p-3">
+              <h6 class="fw-bold mb-2">۱۰ نشانه هشدار دهنده مشکلات قلبی</h6>
+              <p class="text-muted small mb-3">اگر این ۱۰ نشانه را داشتید حتما به پزشک مراجعه کنید.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-primary text-decoration-none small">ادامه مطلب</a>
+                <span class="text-muted small">۱۴۰۳/۰۸/۱۵</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer py-5">
+    <div class="container">
+
+      <div class="row row flex-lg-row-reverse">
+
+        <!-- Newsletter -->
+        <div class="col-lg-4  ">
+
+          <div class="newsletter">
+
+            <h5 class="fw-bold mb-4">مشترک شوید</h5>
+
+            <div class="input-group mb-3">
+
+
+              <input type="email" class="form-control " placeholder="آدرس ایمیل">
+              <button class="btn btn-primary px-4 ">
+                <i class="fa-solid fa-arrow-left text-light"></i>
+              </button>
+            </div>
+
+
+            <p>
+              اپلیکیشن رزرو نوبت برای گرفتن نوبت سریع و
+              غیرحضوری و بهترین دکترهای متخصص با دکتر رزرو.
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="col-lg-3 text-center">
+
+          <h5 class="fw-bold mb-4">اطلاعات تماس</h5>
+
+          <i class="fa-regular fa-mobile fs-4 mb-2"></i>
+
+          <p dir="ltr">+912 345 6789</p>
+          <p dir="ltr">+912 345 6790</p>
+
+          <i class="fa-solid fa-phone fs-5 mt-3 mb-2"></i>
+
+          <p dir="ltr">+021-77 425867</p>
+          <p dir="ltr">+021-77 425868</p>
+
+        </div>
+
+        <div class="col-lg-3 text-center">
+
+          <h5 class="fw-bold mb-4">اطلاعات حقوقی</h5>
+
+          <p>تمامی حقوق محفوظ است.</p>
+
+          <p>سال تاسیس یا بروزرسانی:</p>
+
+          <strong>2025</strong>
+
+        </div>
+
+
+        <div class="col-lg-2" style="margin-bottom: 50px;">
+
+
+          <h5 class="fw-bold mb-4">لینک‌های سریع</h5>
+
+          <ul class="list-unstyled">
+
+            <li><a href="#">صفحه اصلی</a></li>
+            <li><a href="#">لیست پزشکان</a></li>
+            <li><a href="#">سوالات متداول</a></li>
+            <li><a href="#">درباره ما</a></li>
+            <li><a href="#">تماس با ما</a></li>
+
+          </ul>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </footer>
+  <footer class="bottom-footer py-4">
+    <div class="container">
+
+      <hr>
+      <div class="d-flex justify-content-between align-items-center">
+
+        <!-- Social -->
+        <div class="social-links table-dark" style="margin: 10px;" >
+          <img src="./assest/soshal media/whatsapp.png" alt="">
+          <img src="./assest/soshal media/instagram.png" alt="">
+          <img src="./assest/soshal media/telegram.png" alt="">
+          <img src="./assest/soshal media/linkedin-01 (1).png" alt="">
+
+
+
+        </div>
+
+        <!-- Logo -->
+        <div class="logo  d-flex align-items-center">
+          <img src="./assest/logo rezerve.png" alt="logo" width="70%">
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  
+<script src="jalalidatepicker.min.js"></script>
+ <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
